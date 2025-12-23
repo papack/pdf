@@ -1,0 +1,72 @@
+export const font = {
+  family: {
+    sans: "sans",
+    serif: "serif",
+    mono: "mono",
+  },
+
+  size: {
+    xs: "9pt",
+    sm: "10.5pt",
+    md: "12pt",
+    lg: "14pt",
+    xl: "16pt",
+    "2xl": "18pt",
+    "3xl": "21pt",
+    "4xl": "24pt",
+    "5xl": "27pt",
+    "6xl": "30pt",
+    "7xl": "33pt",
+    "8xl": "36pt",
+    "9xl": "39pt",
+  },
+
+  weight: {
+    thin: 100,
+    extralight: 200,
+    light: 300,
+    normal: 400,
+    medium: 500,
+    semibold: 600,
+    bold: 700,
+    extrabold: 800,
+    black: 900,
+  },
+
+  lineHeight: {
+    xs: "10pt",
+    sm: "14pt",
+    md: "18pt",
+    lg: "21pt",
+    xl: "24pt",
+    "2xl": "28pt",
+    "3xl": "32pt",
+    "4xl": "36pt",
+    "5xl": "40pt",
+    "6xl": "44pt",
+    "7xl": "48pt",
+    "8xl": "52pt",
+    "9xl": "56pt",
+  },
+
+  letterSpacing: {
+    xs: "-0.6pt",
+    sm: "-0.3pt",
+    md: "0pt",
+    lg: "0.3pt",
+    xl: "0.6pt",
+    "2xl": "1.2pt",
+    "3xl": "1.8pt",
+    "4xl": "2.4pt",
+    "5xl": "3.0pt",
+    "6xl": "3.6pt",
+    "7xl": "4.2pt",
+    "8xl": "4.8pt",
+    "9xl": "5.4pt",
+  },
+
+  style: {
+    normal: "normal",
+    italic: "italic",
+  },
+};

@@ -1,0 +1,29 @@
+{
+  "name": "@papack/pdf",
+  "description": "Minimal PDF rendering wrapper built on React and react-pdf",
+  "version": "1.0.0",
+  "author": "Matthias Steiner",
+  "repository": "github:papack/pdf",
+  "homepage": "https://github.com/papack/pdf",
+  "publishConfig": {
+    "access": "public"
+  },
+  "module": "dist/index.mjs",
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.mts",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsdown"
+  },
+  "devDependencies": {
+    "@react-pdf/renderer": "^4.3.1",
+    "@types/bun": "latest",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.3",
+    "tsdown": "^0.18.2"
+  }
+}
