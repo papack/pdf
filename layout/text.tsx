@@ -5,6 +5,7 @@ import {
 } from "@react-pdf/renderer";
 
 export interface TextPropertiesInterface extends ReactPdfTextProperties {
+  children: React.ReactNode;
   a?: "left" | "right" | "center" | "justify";
   ff?: string;
   fw?: number;

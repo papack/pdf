@@ -4,6 +4,7 @@ declare global {
   namespace JSX {
     interface IntrinsicAttributes {
       key?: React.Key;
+      children?: React.ReactNode;
     }
 
     interface ElementChildrenAttribute {

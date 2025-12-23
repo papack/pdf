@@ -1,7 +1,7 @@
 {
   "name": "@papack/pdf",
   "description": "Minimal PDF rendering wrapper built on React and react-pdf",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Matthias Steiner",
   "repository": "github:papack/pdf",
   "homepage": "https://github.com/papack/pdf",
