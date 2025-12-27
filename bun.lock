@@ -11,9 +11,6 @@
         "react": "^19.2.3",
         "tsdown": "^0.18.2",
       },
-      "peerDependencies": {
-        "typescript": "^5",
-      },
     },
   },
   "packages": {

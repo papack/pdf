@@ -28,9 +28,8 @@ npm install @papack/pdf
 ## Quick Start
 
 ```ts
-import { jsx, render } from "@papack/pdf/core";
+import { jsx, render, Document, Page, Text } from "@papack/pdf";
 import { writeFile } from "fs/promises";
-import { Document, Page, Text } from "@papack/pdf/layout";
 
 const MyDocument = () => (
   <Document title="Example">
@@ -47,7 +46,7 @@ await writeFile("example.pdf", buffer);
 ## Rendering
 
 ```ts
-import { render } from "@papack/pdf/core";
+import { render } from "@papack/pdf";
 
 const buf = await render(<MyDocument />);
 ```
@@ -129,7 +128,7 @@ Example:
 ## Absolute Positioning
 
 ```tsx
-import { Absolute } from "@papack/pdf/layout";
+import { Absolute } from "@papack/pdf";
 
 <Absolute top="2cm" left="2cm">
   <Text>Overlay</Text>
