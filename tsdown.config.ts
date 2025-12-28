@@ -9,11 +9,13 @@ export default defineConfig([
     dts: {
       sourcemap: true,
     },
+    external: ["react", "@react-pdf/renderer"],
   },
   {
     entry: ["./index.ts"],
     format: "cjs",
     outDir: "dist",
     minify: true,
+    external: ["react", "@react-pdf/renderer"],
   },
 ]);
